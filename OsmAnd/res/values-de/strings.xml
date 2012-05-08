@@ -33,8 +33,8 @@
 	<string name="accessibility_default">Wie globale Systemeinstellung</string>
 
 	<string name="backToMenu">Zurück zum Menü</string>
-	<string name="zoomOut">Auszoomen</string>
-	<string name="zoomIn">Einzoomen</string>
+	<string name="zoomOut">Rauszoomen</string>
+	<string name="zoomIn">Reinzoomen</string>
 	<string name="zoomIs">Zoom ist</string>
 
 	<string name="north">Nord</string>
@@ -75,7 +75,7 @@
 	<string name="scroll_map_by_gestures_descr">Scrolle die Karte mit Gesten auf dem Touchscreen</string>
 	<string name="scroll_map_by_gestures">Natürliches Scrollen der Karte</string>
 	<string name="i_am_here">Ich bin hier</string>
-	<string name="zoom_by_trackball_descr">Change map zooming by horizontal trackball moves</string>
+	<string name="zoom_by_trackball_descr">Zoomlevel mittels horizontaler Bewegung des Trackballs verändern</string>
 	<string name="zoom_by_trackball">Benutze den Trackball zum Zoomen</string>
 	<string name="use_short_object_names_descr">Benutze kurze Objektnamen im Touch-exploration-mode</string>
 	<string name="use_short_object_names">Benutze Objektnamen</string>
@@ -95,7 +95,7 @@
 \n\t- Richtungsüberprüfung: \'Bitte wenden\' wird jetzt angezeigt und angesagt bei entgegengesetzter Bewegungsrichtung oder bei verpasster Abzweigung
 \n\t- Neue Ansage \'Strecke neu berechnet\'
 \n\t- Optische Anzeige eines innerhalb 100m bevorstehenden Abbiegevorgangs durch Farbwechsel des Richtungspfeils
-\n\t- Die Aktualität auch der deaktivierten Karten wird jetzt im Download-Liste in dunkelgrün und dunkelblau angezeigt
+\n\t- Die Aktualität auch der deaktivierten Karten wird jetzt in der Download-Liste in dunkelgrün und dunkelblau angezeigt
 \n\t- Weitere Verbesserungen
 	</string>
 
@@ -108,14 +108,14 @@
 	<string name="local_openstreetmap_upload">POI Änderung auf OSM hochladen</string>
 	<string name="local_openstreetmap_delete">POI Änderung löschen</string>
 	<string name="local_openstreetmap_descr_title">Asynchrone OSM POI Bearbeitung:</string>
-	<string name="local_openstreetmap_settings">Lokal notierte OSM Punkte</string>
+	<string name="local_openstreetmap_settings">Lokal gespeicherte OSM Punkte</string>
 	<string name="local_openstreetmap_settings_descr">Lokal vorgemerkte OSM Punkte anzeigen und verwalten</string>
 
 	<string name="live_monitoring_descr">Senden von HTTP-Daten an einen Web-Service</string>
 	<string name="live_monitoring">Live-Tracking aktivieren</string>
 	<string name="live_monitoring_interval_descr">Angabe des Live-Tracking Invervalls</string>
 	<string name="live_monitoring_interval">Live-Tracking Intervall</string>
-	<string name="live_monitoring_url_descr">Spezifikation der Live-Tracking Web-Addresse mit Datenübergabe : lat={0}, lon={1}, timestamp={2}, hdop={3}, altitude={4}, speed={5}</string>
+	<string name="live_monitoring_url_descr">Spezifikation der Live-Tracking Web-Adresse mit Datenübergabe : lat={0}, lon={1}, timestamp={2}, hdop={3}, altitude={4}, speed={5}</string>
 	<string name="live_monitoring_url">Live-Tracking Web-Adresse</string>
 	<string name="gpx_monitoring_disabled_warn">Bitte Positions-Logging in den Einstellungen aktivieren</string>
 	<string name="show_current_gpx_title">Aktuellen Track anzeigen</string>
@@ -150,7 +150,7 @@
 <!-- this block re-worked for new menu structure -->
 	<string name="profile_settings">Profilspezifische Einstellungen</string>
 	<string name="settings_preset">Nutzerprofil</string>
-	<string name="settings_preset_descr">Verwendungszweck. (Einstellungen für Karten, Logging und Navigation werden für jedes Profil separat gespeichert.)</string>
+	<string name="settings_preset_descr">Verwendungszweck (Einstellungen für Karten, Logging und Navigation werden für jedes Profil separat gespeichert)</string>
 	<string name="rendering_settings">- Kartenkonfiguration</string>
 	<string name="rendering_settings_descr">Kartenquellen und -parametrisierung</string>
 	<string name="appearance_settings">- Anzeigenkonfiguration</string>
@@ -312,7 +312,7 @@
 	<string name="favorite_delete_multiple">Es soll(en) %1$d Favorit(en) und %2$d Favoriten-Gruppe(n) gelöscht werden. Fortfahren?</string>
 	<string name="favorite_home_category">Zu Hause</string>
 	<string name="favorite_friends_category">Freunde</string>
-	<string name="favorite_places_category">Orte</string>
+	<string name="favorite_places_category">Sehenswertes</string>
 	<string name="favorite_default_category">Andere</string>
 
 	<string name="favourites_edit_dialog_name">Name</string>
@@ -379,7 +379,7 @@
 	<string name="gpx_option_destination_point">Derzeitiges Ziel verwenden</string>
 	<string name="gpx_option_from_start_point">Gesamten Track durchlaufen</string>
 
-	<string name="switch_to_vector_map_to_see">Offline-Vektor-Karte für diese Lokation vorhanden.\n\t\n\tFür Verwendung aktivieren: \'Menu\' -> \'Darstellung\' -> \'Kartenquelle…\' -> \'Offline-Vektor-Karten\'.</string>
+	<string name="switch_to_vector_map_to_see">Offline-Vektor-Karte für dieses Gebiet vorhanden.\n\t\n\tZur Verwendung aktivieren: \'Menu\' -> \'Darstellung\' -> \'Kartenquelle…\' -> \'Offline-Vektor-Karten\'.</string>
 	<string name="choose_audio_stream">Navi-Sprachausgabe</string>
 	<string name="choose_audio_stream_descr">Ausgabemodus für Sprachansagen wählen (Systemabhängig)</string>
 	<string name="voice_stream_voice_call">wie Anrufe</string>
@@ -648,7 +648,7 @@
 	<string name="background_service_int">Positionierungsintervall</string>
 	<string name="background_service_provider_descr">Art der Hintergrund-Positionsbestimmung</string>
 	<string name="background_service_provider">Positionsbestimmung</string>
-	<string name="background_router_service_descr">Aktiviere Service für Verwendung von OsmAnd während Anzeige aus ist</string>
+	<string name="background_router_service_descr">OsmAnd ist auch bei ausgeschaltetem Display aktiv</string>
 	<string name="background_router_service">Hintergrundservice</string>
 	<string name="off_router_service_no_gps_available">Die Hintergrundnavigation erfordert aktiviertes GPS.</string>
 	<string name="hide_poi_filter">Filter verstecken</string>
@@ -681,7 +681,7 @@
 	<string name="search_poi_location">Suche Signal …</string>
 	<string name="search_near_map">Suche um Lokation</string>
 	<string name="search_nearby">Suche um Aufenthaltsort</string>
-	<string name="map_orientation_default">je nach Geräteorientierung</string>
+	<string name="map_orientation_default">Lagesensor</string>
 	<string name="map_orientation_portrait">Hochformat</string>
 	<string name="map_orientation_landscape">Querformat</string>
 	<string name="map_screen_orientation">Anzeigeausrichtung</string>
@@ -809,7 +809,7 @@
     <string name="mark_point">Ziel</string>
     <string name="show_osm_bugs_descr">OSM-Fehlerberichte anzeigen</string>
     <string name="show_osm_bugs">OSM-Fehler</string>
-    <string name="favourites_activity">Bevorzugte Punkte</string>
+    <string name="favourites_activity">Markierte Orte</string>
     <string name="add_to_favourite">Als Favorit speichern</string>
     <string name="use_english_names_descr">Englische oder einheimische Bezeichnungen in Karten</string>
     <string name="use_english_names">Englische Bezeichnungen</string>
